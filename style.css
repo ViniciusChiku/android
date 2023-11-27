@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #89d17369;
+}
+a.externo::after{
+    content:'\00a0\1F517' ;
+}
+
+nav{
+    min-width: 640px;
+    text-align: left;
+}
+
+h1#principal {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 4px 4px 3px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    color: black;
+    background-color: #89d173;
+    transition-duration: 0.5s;
+}
+header{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom, #89d173, #3c5833b0);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+}
+header > p{
+    size: 1.2em;
+    text-shadow: 1px 1px 2px black;
+    padding: 10px;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    background-color: whitesmoke;
+    padding: 10px 50px 10px 50px;
+    border-bottom: 15px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+}
+    main img{
+        width: 100%;
+    }
+    
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2em;
+    color: #478b52;
+}
+
+h2{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p{
+    font-size: 1;
+    line-height: 1em;
+    margin: 15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p > a{
+    text-decoration: none;
+    background: #89d173;
+}
+
+p > a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+div.video{
+    background-color: #00000000;
+    border-radius: 10px;
+    padding-bottom: 55%;
+
+    position: relative;
+}
+
+div.video > iframe{
+    margin: -20px 0px 0px -20px;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.411);
+}
+
+aside{
+    background-color: #89d17348;
+    border-radius: 10px ;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.37);
+    
+}
+aside > h3{
+    background-color: #478b52;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    padding: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+aside > p{
+    margin:10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: #478b52;
+    color: white;
+    font-size: .8em;
+    padding: 5px;
+    text-align: center;
+
+}
